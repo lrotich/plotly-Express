@@ -1,0 +1,38 @@
+Title: Exploratory Data Analysis of the Titanic Dataset using Plotly Express
+Objective:
+In this assignment, you will perform an exploratory data analysis on the Titanic dataset using Plotly Express. You will create visualizations to gain insights into the passengers' demographics and their chances of survival.
+
+Dataset:
+The Titanic dataset can be found here: https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+
+Tasks:
+Import necessary libraries and load the dataset.
+
+Create a bar plot to visualize the number of passengers who survived and did not survive, broken down by gender.
+
+Create a histogram to display the distribution of passengers' ages. Use different colors for passengers who survived and did not survive.
+
+Create a violin plot to visualize the distribution of fare prices paid by passengers, broken down by their class (1st, 2nd, and 3rd class).
+
+Generate a scatter plot to explore the relationship between passengers' ages and fare prices, using different colors and symbols for the different classes.
+
+Use faceting to create a scatter plot matrix displaying the relationship between age, fare, and class for passengers who survived and did not survive.
+
+Export your final visualizations as HTML files to share with others.
+
+Hints:
+
+To load the dataset from the provided URL, use the pandas.read_csv() function.
+
+For each task, create a separate code cell in your Jupyter Notebook and use comments to describe the purpose of the code.
+
+To create different types of plots, use the appropriate Plotly Express functions, such as px.bar(), px.histogram(), px.violin(), and px.scatter().
+
+Use the color, facet_col, facet_row, and other parameters to break down the data by categories.
+
+Refer to the Plotly Express documentation for more information on customizing your plots: https://plotly.com/python/plotly-express/
+
+To export your visualizations as HTML files, use the plotly.io.write_html() function.
+
+Once you have completed the assignment, submit your Jupyter Notebook with the code, visualizations, and a brief interpretation of the insights gained from each plot.
+
